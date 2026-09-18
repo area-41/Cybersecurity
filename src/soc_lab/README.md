@@ -18,7 +18,9 @@ Este repositório contém anotações, laboratórios práticos e artefatos focad
 - **Logs & SIEM:** Elastic Stack, Wazuh, Splunk
 - **Detecção & Automação:** Sigma Rules, Python, APIs de Threat Intel
 
-
+```
+bash
+````
 soc-studies-lab/
 │
 ├── README.md                           # Visão geral, mapa de estudos e índice
@@ -34,4 +36,4 @@ soc-studies-lab/
 │   └── automation-playbooks/           # Scripts Python/Ansible/SOAR para triagem
 │
 └── resources/                          # Cheatsheets, referências e links úteis
-
+```
