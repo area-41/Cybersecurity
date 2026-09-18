@@ -20,7 +20,7 @@ Este repositório contém anotações, laboratórios práticos e artefatos focad
 
 ```
 bash
-````
+
 soc-studies-lab/
 │
 ├── README.md                           # Visão geral, mapa de estudos e índice
@@ -37,3 +37,21 @@ soc-studies-lab/
 │
 └── resources/                          # Cheatsheets, referências e links úteis
 ```
+
+## Conteúdo Relevante para Cada Módulo
+
+​01. Traffic, Log Monitoring & Detection
+​Conceitos: Coleta de eventos (Syslog, Windows Event Logs, NetFlow/IPFIX), arquitetura de agentes de monitoramento (Fluentd, Logstash, Wazuh Agent).
+​Atividades Práticas: Mapeamento de fontes de dados vitais para detecção de anomalias na rede e em hosts.
+
+​02. SIEM Tools and Techniques
+​Conceitos: Normalização de logs, correlação de eventos em tempo real, retenção e consulta eficiente.
+​Atividades Práticas: Criação de consultas de busca (SPL do Splunk, KQL do Elastic) e regras de detecção genéricas convertidas para o padrão Sigma.
+
+​03. SOC Management, Governance & Maturity Models
+​Conceitos: Modelos de maturidade (SOC-MM), gestão de incidentes (NIST SP 800-61, ISO 27035), definição de KPIs/SLAs (MTTD, MTTR).
+​Atividades Práticas: Modelos de relatórios de incidentes e playbooks de resposta documentados em Markdown.
+
+​04. UEBA, Automation & AI in SOC Operations
+​Conceitos: Análise comportamental de usuários e entidades (UEBA), orquestração de resposta (SOAR), aplicação de IA/LLMs na triagem inicial e sumarização de alertas.
+​Atividades Práticas: Scripts para enriquecimento automático de alertas (ex: consulta automática de reputação de IP/Hash em APIs de inteligência de ameaças) e automação de rotinas repetitivas do Analista L1.
