@@ -55,3 +55,8 @@ soc-studies-lab/
 ​04. UEBA, Automation & AI in SOC Operations
 ​Conceitos: Análise comportamental de usuários e entidades (UEBA), orquestração de resposta (SOAR), aplicação de IA/LLMs na triagem inicial e sumarização de alertas.
 ​Atividades Práticas: Scripts para enriquecimento automático de alertas (ex: consulta automática de reputação de IP/Hash em APIs de inteligência de ameaças) e automação de rotinas repetitivas do Analista L1.
+
+
+## Módulo 1 (Traffic, Log Monitoring & Detection)
+
+Para estruturar os scripts em Python do Módulo 1 (Traffic, Log Monitoring & Detection) focando em conceitos modernos de monitoramento e análise de eventos, a abordagem recomendada é trabalhar com análise assíncrona de tráfego (captura e parsing de pacotes) e coleta e estruturação de logs (Windows Event Logs ou arquivos de log de sistema).
