@@ -1,16 +1,16 @@
 # Projeto de Estudo em Cibersegurança: Simulação de Phishing e Resposta Defensiva
 
-Este projeto foi desenvolvido exclusivamente para fins educacionais e de investigação em ambiente controlado, com o objetivo de compreender os vetores de ataque baseados em engenharia social (clonagem de páginas de autenticação), o fluxo de persistência de credenciais e as estratégias de deteção, monitorização e mitigação por parte das equipas de segurança defensiva.
+Este projeto foi desenvolvido exclusivamente para fins educacionais e de investigação em ambiente controlado, com o objetivo de compreender os vetores de ataque baseados em engenharia social (clonagem de páginas de autenticação), o fluxo de persistência de credenciais e as estratégias de detecção, monitoramento e mitigação por parte das equipes de segurança defensiva.
 
 ---
 
 ### Arquitetura do Projeto
 
-O laboratório simula um cenário real de phising de login do Facebook, dividido em três componentes principais:
+O laboratório simula um cenário real de phishing de login do Facebook, dividido em três componentes principais:
 
 ---
 > [!IMPORTANT]  
-> Apesar do Desafio indicar o uso do Kali Linux, este projeto focou em criar em **Python apenas**.
+> Apesar do Desafio indicar o uso do Kali Linux, este projeto focou em criar com **Python apenas**.
 >
 
 
@@ -26,8 +26,8 @@ O laboratório simula um cenário real de phising de login do Facebook, dividido
    * Registo e armazenamento seguro (ou simulado) num banco de dados relacional para análise forense posterior.
 
 3. **Camada Defensiva (Blue Team / Monitorização):**
-   * Sistemas de logs estruturados para auditoria de requisições HTTP anómalas.
-   * Mecanismos de alerta e deteção de tentativas de *phishing* (análise de domínios, cabeçalhos e padrões de tráfego atípicos).
+   * Sistemas de logs estruturados para auditoria de requisições HTTP anômalas.
+   * Mecanismos de alerta e detecção de tentativas de *phishing* (análise de domínios, cabeçalhos e padrões de tráfego atípicos).
 
 ---
 
